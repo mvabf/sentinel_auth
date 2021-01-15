@@ -6,6 +6,7 @@
 </style>
 
 <form action="/register" method="POST">
+    <h3>Register</h3>
     @csrf
     <div>
        <input type="email" name="email" placeholder="example@example.com"> 
