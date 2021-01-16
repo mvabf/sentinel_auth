@@ -18,4 +18,10 @@ class LoginController extends Controller
         return Sentinel::check();
 
     }
+
+    public function logout() {
+        Sentinel::lougout();
+
+        return redirect('/login');
+    }
 }
